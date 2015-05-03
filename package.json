@@ -1,0 +1,23 @@
+{
+  "name": "junkjs",
+  "version": "0.1.0",
+  "description": "A small library for generating mock/junk data.",
+  "author": "Elijah Dorman <elijahdorman@tyeltech.com>",
+  "homepage": "https://github.com/elijahdorman/junkjs",
+  "license": "Apache License 2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elijahdorman/junkjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elijahdorman/junkjs/issues"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
