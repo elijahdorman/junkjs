@@ -19,7 +19,7 @@ var exec = function exec(child) {
     return result;
   }
 
-  rand = Math.floor(Math.random() * (result.length - 1));
+  rand = Math.floor(Math.random() * result.length);//use length to be inclusive
   return result[rand];
 };
 

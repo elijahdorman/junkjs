@@ -51,7 +51,7 @@ var numGen = function numGen(min, max, isInt) {
   min = (typeof min === 'number' && min >= 0) ? min : 1;
   max = (typeof max === 'number' && max >= min) ? max : min + 20;
 
-  var rand, range = max - min;
+  var rand, range = max - min + 1;//add one to be inclusive
 
   if (isInt) {
     range = rand|0; //make sure is int

@@ -7,7 +7,7 @@
  */
 var or = function or() {
   //Note: 'this' should always be a Token object
-  var len = this.children.length;
+  var len = this.children.length + 1; //to be inclusive
   var rand = Math.floor(Math.random() * len);//select random child
   return this.children[rand].fn();//execute random child and return result
 };
